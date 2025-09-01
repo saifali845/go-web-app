@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches: [ "main" ]
-  path-ignore:
+    paths-ignore:
     - 'helm/**'
     - 'K8s/**'
     - 'README.md'
