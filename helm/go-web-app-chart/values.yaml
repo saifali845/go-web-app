@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: slogde7/go-web-app
   pullPolicy: IfNotPresent
-  tag: "17396189806"
+  tag: "17396494809"
 
 ingress:
   enabled: false
